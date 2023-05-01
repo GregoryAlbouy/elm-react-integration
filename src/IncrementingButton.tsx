@@ -3,11 +3,9 @@ import { Elm } from "./elm/src/IncrementingButton.elm";
 
 export const IncrementingButton = () => {
   const ref = useRef<HTMLDivElement>(null);
-  const rendered = useRef(false);
 
   useEffect(() => {
-    if (!ref.current || rendered.current) return;
-    rendered.current = true;
+    if (!ref.current?.isConnected) return;
     Elm.IncrementingButton.init({ node: ref.current });
   }, []);
 
