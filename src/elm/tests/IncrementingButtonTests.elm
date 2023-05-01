@@ -1,8 +1,8 @@
-module CountingButtonTests exposing (..)
+module IncrementingButtonTests exposing (..)
 
-import CountingButton exposing (Msg(..), update, view)
 import Expect
 import Fuzz exposing (int)
+import IncrementingButton exposing (Msg(..), update, view)
 import Test exposing (Test, describe, fuzz, test)
 import Test.Html.Event as Event
 import Test.Html.Query as Query

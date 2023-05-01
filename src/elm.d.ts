@@ -1,5 +1,5 @@
 declare module "*.elm" {
   export const Elm: {
-    CountingButton: ElmMain<undefined>;
+    IncrementingButton: ElmMain<undefined>;
   };
 }

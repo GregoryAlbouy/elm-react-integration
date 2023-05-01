@@ -1,5 +1,5 @@
 import "./App.css";
-import { CountingButton } from "./CountingButton";
+import { IncrementingButton } from "./IncrementingButton";
 import elmLogo from "./assets/elm.svg";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
@@ -21,7 +21,7 @@ function App() {
       </div>
       <h1>Vite + React + Elm</h1>
       <div className="card">
-        <CountingButton />
+        <IncrementingButton />
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
