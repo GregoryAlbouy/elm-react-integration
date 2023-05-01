@@ -1,7 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import reactPlugin from "@vitejs/plugin-react-swc";
+import { defineConfig } from "vite";
+import { plugin as elmPlugin } from "vite-plugin-elm";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-})
+  plugins: [elmPlugin(), reactPlugin()],
+});
