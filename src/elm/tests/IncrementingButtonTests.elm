@@ -6,7 +6,7 @@ import IncrementingButton exposing (Msg(..), update, view)
 import Test exposing (Test, describe, fuzz, test)
 import Test.Html.Event as Event
 import Test.Html.Query as Query
-import Test.Html.Selector exposing (tag, text)
+import Test.Html.Selector exposing (text)
 
 
 testUpdate : Test
