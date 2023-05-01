@@ -1,4 +1,4 @@
-module CountingButton exposing (main)
+module CountingButton exposing (Msg(..), main, update, view)
 
 import Browser
 import Html exposing (Html, button, text)
